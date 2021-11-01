@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
+admin_path: static/nulis
 webhook_url: 
 sections:
 - type: heading
