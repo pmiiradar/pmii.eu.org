@@ -1,0 +1,99 @@
+---
+slider:
+  enable: true
+  bg_image: images/banner/header.jpg
+  slider_item:
+  - title: PMII RADAR
+    content: PMII Rayon Adab dan Humaniora Komisariat UIN Sunan Gunung Djati Cabang
+      Kabupaten Bandung
+    animation_in: left
+    animation_out: right
+    button:
+      enable: true
+      label: Join now
+      link: contact
+  - title: Membaca Menulis Ngopi
+    content: Sudahkah sahabat pembaca minum kopi hari ini? Sudah. Mantap, pasti sudah
+      kamu temukan kenikmatan setiap kali menyeruput. Yang belum, silahkan seduh,
+      atau pesan di kafe terdekat biasa kamu nangkring.
+    animation_in: left
+    animation_out: right
+    button:
+      enable: true
+      label: Mari Ngopi
+      link: contact
+  - title: Your bright future is our mission
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exer
+    animation_in: left
+    animation_out: right
+    button:
+      enable: true
+      label: Apply now
+      link: contact
+banner_feature:
+  enable: true
+  image: "/images/logo-pmii-format-png.png"
+  feature_item:
+  - name: Dzikir Fikir
+    icon: ti-book
+    content: dzikir dan fikir adalah perintah Allah SWT dan menjadi ciri orang yang
+      berakal. Perintah untuk berdzikir dan berfikir adalah kesatuan yang tidak terpisahkan.
+  - name: Amal Sholeh
+    icon: ti-agenda
+    content: Amal saleh merupakan perbuatan atau pekerjaan yang dikerjakan oleh manusia
+      sebagai hamba Allah yang sesuai dengan syariah Islam
+about:
+  enable: true
+  title: About PMII Radar
+  image: "/images/pmii_radar_156012829_914038069408646_4683018347818310661_n.jpg"
+  content: Pergerakan Mahasiswa Islam Indonesia (PMII) merupakan salah satu elemen
+    mahasiswa yang terus bercita-cita mewujudkan Indonesia ke depan menjadi lebih
+    baik. PMII berdiri tanggal 17 April 1960 dengan latar belakang situasi politik
+    tahun 1960-an yang mengharuskan mahasiswa turut andil dalam mewarnai kehidupan
+    sosial politik di Indonesia. Pendirian PMII dimotori oleh kalangan muda NU (meskipun
+    di kemudian hari dengan dicetuskannya Deklarasi Murnajati 14 Juli 1972, PMII menyatakan
+    sikap independen dari lembaga NU). Di antara pendirinya adalah Mahbub Djunaidi
+    dan Subhan ZE (seorang jurnalis sekaligus politikus legendaris).
+  button:
+    enable: true
+    label: Learn more
+    link: about
+course:
+  enable: false
+  title: Our Course
+cta:
+  enable: false
+  subtitle: Click to Join the Advance Workshop
+  title: Training In Advannce Networking
+  button:
+    enable: true
+    label: join now
+    link: contact
+success_story:
+  enable: false
+  bg_image: images/backgrounds/success-story.jpg
+  title: Success Stories
+  content: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+
+    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  video_link: https://www.youtube.com/watch?v=ResipmZmpDU
+event:
+  enable: true
+  title: Upcoming Events
+funfacts:
+  enable: false
+  funfact_item:
+  - name: TEACHERS
+    count: "60"
+  - name: COURSES
+    count: "50"
+  - name: STUDENTS
+    count: "1000"
+  - name: SATISFIED CLIENT
+    count: "1400"
+blog:
+  enable: true
+  title: Latest News

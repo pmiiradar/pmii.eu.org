@@ -1,0 +1,113 @@
+baseURL = "https://pmiiradar.my.id/"
+disableLanguages = ["fr"]
+disqusShortname = "idanblog"
+paginate = "9"
+summaryLength = 10
+theme = "github.com/themefisher/educenter-hugo"
+title = "PMII RADAR - Rayon Adan dan Humaniora"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2021 All Right Reserved [PMII RADAR](/)"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[[menu.footer]]
+URL = "research"
+name = "research"
+weight = 1
+[[menu.footer]]
+URL = "scholarship"
+name = "scholarship"
+weight = 2
+[[menu.footer]]
+URL = "event"
+name = "Event"
+weight = 3
+[[menu.main]]
+URL = "event"
+name = "event"
+weight = 2
+[[menu.main]]
+URL = "scholarship"
+name = "scholarship"
+parent = "Pages"
+weight = 3
+[[menu.main]]
+URL = "research"
+name = "research"
+parent = "Pages"
+weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+[[menu.main]]
+URL = "blog"
+name = "blog"
+weight = 4
+[[menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 3
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
+[params]
+address = "Jl. Manisi (Bunderan Cibiru) Cipadung Cibiru Bandung 40614"
+author = "PMII Radar"
+contact_form_action = "#"
+description = "PMII Rayon Adab dan Humaniora Komisariat UIN Sunan Gunung Djati Cabang Kabupaten Bandung"
+email = "pmiiradar@gmail.com"
+google_analitycs_id = ""
+logo = "/images/logo.png"
+mobile = "(022) 7315915"
+top_header = false
+[params.map]
+enable = true
+gmap_api = "https://www.google.com/maps?z=16&q=jl.%2Bmanisi%2B(bunderan%2Bcibiru)%2Bcipadung%2Bcibiru%2Bbandung%2B40614"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif"
+[params.subscription]
+enable = true
+mailchimp_form_action = "https://pmiiradar.us5.list-manage.com/subscribe/post?u=c287095c0e169fe2102128473&amp;id=0e413a4734"
+mailchimp_form_name = "c287095c0e169fe2102128473"
+[[params.social]]
+icon = "ti-facebook"
+link = "#"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
+title = "twitter"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/pmii_radar/"
+title = "instagram"

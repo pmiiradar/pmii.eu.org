@@ -1,0 +1,110 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: heading
+  label: Blog Post
+- type: directory
+  path: content/english/blog
+  label: Post (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: heading
+  label: Author
+- type: directory
+  path: content/english/author
+  label: Author (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: heading
+  label: Event
+- type: directory
+  path: content/english/event
+  label: Event (en)
+  create: all
+  match: "**/*"
+  templates:
+  - event
+- type: heading
+  label: Research
+- type: directory
+  path: content/english/research
+  label: Research (en)
+  create: all
+  match: "**/*"
+  templates:
+  - research
+- type: heading
+  label: Scholarship
+- type: directory
+  path: content/english/scholarship
+  label: Scholarship (en)
+  create: all
+  match: "**/*"
+  templates:
+  - scholarship
+- type: heading
+  label: Others Pages
+- type: directory
+  path: content/english/about
+  label: About (en)
+  create: none
+  match: "*"
+- type: directory
+  path: content/english/contact
+  label: Contact (en)
+  create: none
+  match: "*"
+- type: directory
+  path: content/english/pages
+  label: Created Pages (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
+  path: content/english
+  label: All Pages (en)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
+- type: heading
+  label: Data
+- type: directory
+  path: data/en
+  label: Data (en)
+  create: all
+  match: "**/*"
+- type: directory
+  path: i18n
+  label: i18n
+  create: documents
+  match: "**/*"
+- type: heading
+  label: Configuration
+- type: document
+  path: config.toml
+  label: Configuration
+upload_dir: static/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.75.1
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+version: 0.75.1
