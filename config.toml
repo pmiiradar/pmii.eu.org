@@ -57,9 +57,9 @@ weight = 1
 [params]
 address = "Jl. Manisi (Bunderan Cibiru) Cipadung Cibiru Bandung 40614"
 author = "PMII Radar"
-contact_form_action = "#"
+contact_form_action = "https://formspree.io/f/mgergpgz"
 description = "PMII Rayon Adab dan Humaniora Komisariat UIN Sunan Gunung Djati Cabang Kabupaten Bandung"
-email = "pmiiradar@gmail.com"
+email = "sahabat@pmiiradar.my.id"
 google_analitycs_id = ""
 logo = "/images/logo.png"
 mobile = "(022) 7315915"
