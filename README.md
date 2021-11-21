@@ -1,42 +1,19 @@
-# website pmii radar
+# Tentang Kami
 
-## konfigurasi website deploy pada netlify
+![](https://raw.githubusercontent.com/pmiiradar/pmiiradar.org/main/ss.PNG)
 
-[build]
-  publish = "exampleSite/public"
-  command = "hugo --gc --minify"
-  
-[build.environment]
-  HUGO_VERSION = "0.89.4"
-  HUGO_BASEURL = "https://pmiiradar.org"
+[PmiiRadar.com](https://pmiiradar.org/ "pmii Adab dan Humaniora ") adalah Media dan Opini Pergerakan Mahasiswa Islam Indonesia (PMII) Rayon Adab dan Humaniora Komisariat UIN Sunan Gunung Djati Cabang Kabupaten Bandung, Pmii Radar.
 
-[[headers]]
-  ## pengaturan keamanan http header
-  for = "/*"
+## Dibalik Layar
 
-[headers.values]
-   X-Frame-Options = "DENY"
-   X-XSS-Protection = "1; mode=block"
-   Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
-   Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-   Referrer-Policy = "no-referrer-when-downgrade"
-   X-Content-Type-Options = "nosniff"
-   Permissions-Policy = '''
-           accelerometer=(none),
-           ambient-light-sensor=(none),
-           autoplay=(none),
-           camera=(none),
-           encrypted-media=(none),
-           fullscreen=(none),
-           geolocation=(none),
-           gyroscope=(none),
-           magnetometer=(none),
-           microphone=(none),
-           midi=(none),
-           payment=(none),
-           picture-in-picture=(none),
-           speaker=(none),
-           usb=(none),
-           vibrate=(none),
-           vr=(none)
-        '''
+* Hosting Provider: Netlify
+* Web Server: Jamstack
+* CMS: Forestry.io
+* DNS Hosting: Cloudflare
+* Email Hosting: Yandex
+* Sertifikat SSL: Let’s Encrypt
+* Server Uptime Monitor: UptimeRobot
+* CDN: Cloudfront AWS & Netlify Cdn 
+* Email Subcription: MailChimp
+* Form: Formspree.io
+* Statistik dan analisa pengunjung: tidak ada
