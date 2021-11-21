@@ -11,7 +11,7 @@
   HUGO_BASEURL = "https://pmiiradar.org"
 
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
+  ## pengaturan keamanan http header
   for = "/*"
 
   [headers.values]
