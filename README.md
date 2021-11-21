@@ -1,6 +1,6 @@
 # Tentang Kami
 
-![](https://raw.githubusercontent.com/pmiiradar/pmiiradar.org/main/gambar-website.png)
+![](https://raw.githubusercontent.com/pmiiradar/pmiiradar.org/forestry/gambar-website.png)
 
 [PmiiRadar.com](https://pmiiradar.org/ "pmii Adab dan Humaniora ") adalah Media dan Opini Pergerakan Mahasiswa Islam Indonesia (PMII) Rayon Adab dan Humaniora Komisariat UIN Sunan Gunung Djati Cabang Kabupaten Bandung, Pmii Radar.
 
