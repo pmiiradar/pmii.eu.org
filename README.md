@@ -7,7 +7,6 @@
 ## Dibalik Layar
 
 * Hosting Provider: Netlify
-* Web Server: Jamstack
 * CMS: Forestry.io
 * DNS Hosting: Cloudflare
 * Email Hosting: Yandex
@@ -16,4 +15,3 @@
 * CDN: Cloudfront AWS & Netlify Cdn 
 * Email Subcription: MailChimp
 * Form: Formspree.io
-* Statistik dan analisa pengunjung: tidak ada
