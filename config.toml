@@ -94,7 +94,7 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 link = "plugins/google-map/gmap.js"
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif"
+preloader = "static/images/preloader.gif"
 [params.subscription]
 enable = true
 mailchimp_form_action = "https://pmiiradar.us5.list-manage.com/subscribe/post?u=c287095c0e169fe2102128473&amp;id=0e413a4734"
